@@ -16,29 +16,4 @@ if k == 27: #wsc
 #Eğer tuş 's' ise (ASCII: 115), görüntüyü "messi_gray.png" adıyla kaydet ve pencereleri kapat.   
 elif k == ord('s'): #ord ASCII değerini döndüren bir fonksiyondur.
     cv2.imwrite("messi_gray.png",img)
-    cv2.destroyAllWindows()
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    cv2.destroyAllWindows()    
